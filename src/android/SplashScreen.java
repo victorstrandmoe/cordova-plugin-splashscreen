@@ -141,7 +141,7 @@ public class SplashScreen extends CordovaPlugin {
             return;
         }
         // hide the splash screen to avoid leaking a window
-        this.removeSplashScreen(true);
+      //  this.removeSplashScreen(true);
     }
 
     @Override
@@ -150,7 +150,7 @@ public class SplashScreen extends CordovaPlugin {
             return;
         }
         // hide the splash screen to avoid leaking a window
-        this.removeSplashScreen(true);
+      //  this.removeSplashScreen(true);
         // If we set this to true onDestroy, we lose track when we go from page to page!
         //firstShow = true;
     }
